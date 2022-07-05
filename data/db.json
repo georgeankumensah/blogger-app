@@ -1,0 +1,16 @@
+{
+    "data":[
+        {
+            "title":"My first blog",
+            "body":"this is the content of the first blog from json db",
+            "author":"jake cowell",
+            "id":1
+        },
+        {
+            "title":"My Second blog",
+            "body":"this is the content of the second blog from json db",
+            "author":"peter griffin",
+            "id":2
+        }
+    ]
+}
