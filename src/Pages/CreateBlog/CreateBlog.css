@@ -1,0 +1,35 @@
+.createblog{
+    width: 40%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.521);
+}
+.createblog>h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.createblog>form{
+    display: flex;
+    flex-direction: column;
+}
+.createblog>form>input{
+    height: 35px;
+}
+.createblog>form>textarea{
+    height: 100px;
+}
+.createblog>form>button{
+    height: 40px;
+    margin-top: 50px;
+}
+.select{
+    height: 35px;
+}
+@media only screen and (max-width:600px){
+    .createblog{
+        background-color: rgb(212, 208, 208);
+        width: 90%;
+    }
+}

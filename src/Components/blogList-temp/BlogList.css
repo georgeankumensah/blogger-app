@@ -1,4 +1,14 @@
-.blog-preview>h2{
+
+.blog-preview{
+    width: 90%;
+    /* border: 2px solid rgba(3, 0, 0, 0.418); */
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px rgba(3, 0, 0, 0.418);
+}
+.blog-preview>a>h2{
     font-weight: 700;
     color:blueviolet;
     text-transform: uppercase;

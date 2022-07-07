@@ -1,0 +1,20 @@
+article{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 0 5px rgb(0, 0, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+article>h2{
+    color: rgb(228, 29, 62);
+    font-size: 25px;
+    /* background-color: rebeccapurple; */
+}
+article>p{
+    font-size: 15px;
+    font-style: italic;
+}
+article>div{
+    font-size: 18px;
+}
