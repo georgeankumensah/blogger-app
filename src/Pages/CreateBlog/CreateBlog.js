@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useNavigate} from "react-router-dom";
 import "./CreateBlog.css";
 const CreateBlog = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [author, setAuthor] = useState("Amos");
   const [isPending, setIsPending] = useState(false);
+  const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
     const blog = { title, author, body };
@@ -20,6 +22,8 @@ const CreateBlog = () => {
         ).then(() => {
             console.log("submitted");
             setIsPending(false);
+            setTimeout(()=>{navigate("/")
+            },500)
           });
     
     setTitle("");

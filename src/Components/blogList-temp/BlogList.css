@@ -13,7 +13,7 @@
     color:blueviolet;
     text-transform: uppercase;
     }
-.blog-preview>p{
+.blog-preview>a>p{
     color: green;
 }
 .blog-preview>button{

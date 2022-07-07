@@ -18,3 +18,10 @@ article>p{
 article>div{
     font-size: 18px;
 }
+article>button{
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    
+}

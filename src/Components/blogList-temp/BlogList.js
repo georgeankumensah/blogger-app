@@ -5,9 +5,9 @@ const BlogList = ({blogs}) => {
     <div className="bloglist">
       {blogs.map((blog) => (
         <div className="blog-preview" key={blog.id}>
-          <Link to={`/blogs/${blog.id}`}><h2>{blog.title}</h2></Link>
+          <Link to={`/blogs/${blog.id}`}><h2>{blog.title}</h2>
           <p>written by {blog.author}</p>
-          {/* <button type="button">delete blog</button> */}
+          </Link>
         </div>
       ))}
     </div>
